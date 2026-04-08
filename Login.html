@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Page</title>
+  <style>
+    body {
+      height: 100vh;
+      background: #4facfe;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .login {
+      background: #fff;
+      padding: 40px;
+      border-radius: 12px;
+      width: 320px;
+      text-align: center;
+    }
+
+    .login h2 {
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .input-class {
+      margin-bottom: 15px;
+      text-align: left;
+    }
+
+    .input-class label {
+      font-size: 14px;
+      color: #ded4d4;
+    }
+
+    .input-class input {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      outline: none;
+      transition: 0.3s;
+    }
+
+    .input-class input:focus {
+      border-color: #4facfe;
+      box-shadow: 0 0 5px rgba(79,172,254,0.5);
+    }
+
+    .login-button {
+      padding: 12px;
+      border: none;
+      border-radius: 6px;
+      background: #4facfe;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .login-button:hover {
+      background: #3a8ee6;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="login">
+    <h2>Login</h2>
+
+    <div class="input-class">
+      <label>Email</label>
+      <input type="email" placeholder="Enter your email">
+    </div>
+
+    <div class="input-class">
+      <label>Password</label>
+      <input type="password" placeholder="Enter your password">
+    </div>
+
+    <button class="login-button">Login</button>
+  </div>
+
+</body>
+</html>
